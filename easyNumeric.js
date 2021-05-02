@@ -1,4 +1,6 @@
-// presettings
+/*
+  By Sewaca 
+*/
 class SNumeric{
   focused = null;
   ignoreClass = 'notSNumeric';

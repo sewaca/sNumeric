@@ -5,7 +5,8 @@ Pure JS script!
 Allows to replace all
 ```html
 <input type="number">
-``` to
+```
+to
 ```html
 <input type="text">
 ```

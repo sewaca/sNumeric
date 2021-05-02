@@ -1,5 +1,5 @@
 # Easy Numeric
-____
+
 ## Description
 Pure JS script!
 Allows to replace all
@@ -10,25 +10,25 @@ to
 ```html
 <input type="text">
 ```
-much easier and with some improvements
+Much easier and with some improvements
 
-You can use attributes right in HTML code!
-For example: min, max, step, placeholder, style, class, readOnly
+- You still can use attributes right in HTML code! For example: min, max, step, placeholder, style, class, readOnly
 
-Now it's impossible to focus element with readOnly attribute
-Also, you can set special class to not use this script for some of inputs
-____
+- Now it's impossible to focus element with readOnly attribute
+
+- You can set special class to not use this script for some of inputs
+
 ## Installation
-firstly, create your HTML _( everything except "type" isn't required )_ :
+Firstly, create your HTML _( everything except "type" isn't required )_ :
 ```html
   <input type="number" step="5" min="-50" max="50" placeholder="input something" class="a b c d e">
 ```
-then, just connect js and call it
+Then, just connect js and call it
 ```html
 <script src="easyNumeric.js"></script>
 <script> new SNumeric(  );</script>
 ```
-____
+
 ## Options
 All options and their defaults :
 ```html
@@ -41,5 +41,5 @@ All options and their defaults :
   placeholder: undefined,    // you can set the same placeholder for each input
 } );</script>
 ```
-____
+
 ## Preview [sewaca.github.io](https://sewaca.github.io/easyNumeric)
